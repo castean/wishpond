@@ -3,5 +3,11 @@ Rails.application.routes.draw do
 
   # Apunto al controlador 'app' y llamo a su método 'index' 
   root :to => "app#index"
+  
+  resources :orders
+  get 'app', to: 'orders#index'
+  
+
+
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

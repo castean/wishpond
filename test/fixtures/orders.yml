@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Crust: MyString
+  Flavor: MyString
+  Size: MyString
+  Table_No: 1
+  address: MyString
+
+two:
+  Crust: MyString
+  Flavor: MyString
+  Size: MyString
+  Table_No: 1
+  address: MyString

@@ -73,7 +73,11 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
-
+  
+  #config.asset_host = "http://localhost:3000"
+  #config.asset_host = 'https://order-pizza-api.herokuapp.com/api/orders'
+  
   # Make javascript_pack_tag load assets from webpack-dev-server.
   config.x.webpacker[:dev_server_host] = 'http://localhost:8080'
+
 end

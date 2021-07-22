@@ -3,9 +3,9 @@
     <div class="row">
       <div class="col-md-12">
         <div id="app">
-          <p>{{ message }}</p>
-
-          <Orders/>
+          <v-app>
+            <Orders/>
+          </v-app>
         </div>
       </div>
     </div>
@@ -14,7 +14,7 @@
 
 <script>
 // Importo el componente 'Orders' 
-import Orders from './Orders.vue'
+import Orders from './packs/components/orders.vue'
 
 export default {
   components: {
